@@ -107,5 +107,3 @@ catch (Google_IO_Exception $gioe)
 {
 	echo "Error in connection: ".$gioe->getMessage();
 }
-
-echo 'Done!';
