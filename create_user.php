@@ -2,14 +2,14 @@
 /**
  * This file is on Google's library
  */
-require_once realpath('/path/to/autoload.php');
+require_once realpath('google-api-php-client/autoload.php'); 
 
 /**
  * Client id and service account name as reported 
  * on https://console.developers.google.com/ - Projects - Credentials
  */
-$client_id = 'long-string.apps.googleusercontent.com'; // 'CLIENT ID' on Google
-$service_account_name = 'long-string@developer.gserviceaccount.com'; // 'EMAIL ADDRESS' on Google
+$client_id = '5616153777-g3udn7vsbf8t0ap34nckq6bipu8rl36u.apps.googleusercontent.com'; // 'CLIENT ID' on Google
+$service_account_name = '5616153777-g3udn7vsbf8t0ap34nckq6bipu8rl36u@developer.gserviceaccount.com'; // 'EMAIL ADDRESS' on Google
 
 /**
  * This is the .p12 file generated on https://console.developers.google.com/ - Projects - Credentials
@@ -21,7 +21,7 @@ $key_file_location = '/path/to/file_name.p12';
  * Needs to be created via Google Apps Admin interface and be added to an admin role
  * that has permissions for Admin APIs for Users
  */
-$delegatedAdmin = 'admin@yourdomain.com';
+$delegatedAdmin = 'admin@fm6education.net';
 
 /**
  * Array of scopes you need for whatever actions you want to perform
